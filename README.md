@@ -33,5 +33,11 @@ We also generated a confusion matrix to evaluate our model's performance. This m
 
 ![](ConfusionMatrix.png)
 
+## Accuracy
+
+![](Accuracy_graph.png)
+
+While our model accuracy is generally high, the graph above shows a noticeable gap between training and validation accuracy. This suggests potential overfitting, meaning the model performs significantly better on the training set than on unseen data. More work needs to be done to close this gap and improve the overall accuracy.
+
 ---------------------------------------------------------------
 Special thanks to [Masrafee](https://github.com/MasrafeeMasiat) for his guidance throughout this project.
